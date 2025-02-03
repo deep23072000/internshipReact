@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import tree from "../assets/im.jpg";
 
 const Home =()=>{
     return(
@@ -21,7 +22,7 @@ const Home =()=>{
       </Carousel.Item>
       <Carousel.Item>
         {/* <ExampleCarouselImage text="Third slide" /> */}
-        <img width={"100%"} src='https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_640.jpg' alt='not found'></img>
+        <img width={"100%"} src={tree} alt='not found'></img>
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
